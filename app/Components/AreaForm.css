@@ -1,0 +1,27 @@
+/* BeautifulForm.css */
+.beautiful-textarea {
+    width: 25%;  /* Make textarea span the full width */
+    padding: 15px;  /* Adjust padding as needed */
+    border: 2px solid #ddd; /* Adjust border thickness and color */
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: inherit;  /* Inherit default font family */
+    resize: vertical;  /* Allow vertical resizing */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Subtle shadow effect */
+    margin-left: 7.5% !important;
+    margin-right: 40%;
+    margin-top: 2%; 
+    opacity: 0; /* Initially hide the text */
+    animation: fadeIn 1s ease-in-out forwards;
+
+    
+    
+  }
+  
+  .beautiful-textarea:focus {
+    border-color: #4CAF50;  /* Change border color on focus */
+    outline: none;  /* Remove default outline */
+    opacity: 0; /* Initially hide the text */
+    animation: fadeIn 1s ease-in-out forwards;
+
+  }

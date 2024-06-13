@@ -1,0 +1,55 @@
+
+/** BackGround Image **/
+
+body {background-image: url(https://i.pinimg.com/originals/f3/dd/85/f3dd85041953c17325d36c0192744ebf.jpg);
+
+    height:2200px !important; width: 7000px !important;
+    
+    }
+
+/** About Content **/
+
+.AboutP1 {justify-content: center; margin-top: 25%; text-align: center; /* Adjust font size as needed */
+    opacity: 0; 
+    animation: fadeIn 1s ease-in-out forwards; }
+
+.AboutP1 h2 { justify-content: center; margin-top: -10% !important; margin-left: -2%; margin-bottom: 0% !important;}
+
+.AboutP1 img { justify-content: center; margin-top: 25%; margin-left: 45.75%; height: 450px; width: auto !important; border-radius: 2%;}
+
+.AboutP1 p { justify-content: center; margin-top: 45%; }
+
+
+
+.AboutP2 { justify-content: center; text-align: center; display: flex !important; flex-wrap: wrap !important;  margin-bottom: -25%;  /* Adjust font size as needed */
+    opacity: 0; 
+    animation: fadeIn 1s ease-in-out forwards; }
+
+.AboutP2 img { display: flex; justify-content: center; margin-left: 15%; margin-top: 75% !important; margin-top: 5%; height: 500px !important; 
+    width: 450px; border-radius: 2%; margin-bottom: 50% !important;  }
+
+.AboutP2 p {justify-content: center; margin-top: 40% !important ;margin-right: 15% !important; position: absolute; margin-left: 40% !important; top: 760px;
+     text-align: center !important; margin-bottom: 5%; left: 150px; }  
+     
+     
+
+.AboutP3 { margin-top: 80%;  
+    opacity: 0; /* Initially hide the text */
+    animation: fadeIn 1s ease-in-out forwards;}   
+
+.AboutP3 p { margin-left: 15%;margin-left: 12% !important; margin-top: 85%; margin-left:5%;}
+
+.AboutP3 img { justify-content: center; margin-top: 115% !important; margin-left: 60%; border-radius: 2%; height: 350px; width: 450px;}
+
+
+
+/* BeautifulFooter.css */
+.FooterSection {
+    background-color: #f2f2f2 ; /* Light gray background */
+    padding: 20px ;
+    text-align: center ; /* Center the content horizontally */
+    opacity: 0 !; /* Initially hide the text */
+      animation: fadeIn 1s ease-in-out forwards ;
+  
+  }
+  

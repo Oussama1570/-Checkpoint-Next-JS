@@ -1,0 +1,57 @@
+.ContactTitle { margin-top: 10% !important; margin-left:10%; 
+    opacity: 0; /* Initially hide the text */
+    animation: fadeIn 1s ease-in-out forwards;
+} 
+
+h3 { margin-top: 2%; margin-left: 8%;
+    opacity: 0; /* Initially hide the text */
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+
+
+/* BeautifulButton.css */
+.Sendbutton {
+    background-color: #156aa3; /* Green color */
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s ease-in-out; /* Add hover effect */
+    opacity: 0; /* Initially hide the text */
+    animation: fadeIn 1s ease-in-out forwards;
+
+  }
+  
+  .Sendbutton:hover {
+    background-color: #052b5c; /* Darker green on hover */
+    opacity: 0; /* Initially hide the text */
+    animation: fadeIn 1s ease-in-out forwards;
+
+  }
+
+.Sendbutton { margin-left: 8%; margin-top: 1%; padding-right: 5%; padding-left: 5%;
+    opacity: 0; /* Initially hide the text */
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+
+.ContactMe { justify-content: center; margin-left: 58% !important; margin-top: 20% !important; 
+      margin-left: auto;   height: 500px !important; width: 400px !important; border-radius: 2%;
+      opacity: 0; /* Initially hide the text */
+      animation: fadeIn 1s ease-in-out forwards;
+  }
+
+
+/* BeautifulFooter.css */
+.FooterSection {
+    background-color: #f2f2f2  ; /* Light gray background */
+    padding: 20px ;
+    text-align: center  ; /* Center the content horizontally */
+    opacity: 0 ! ; /* Initially hide the text */
+      animation: fadeIn 1s ease-in-out forwards  ;
+  
+  }
+  

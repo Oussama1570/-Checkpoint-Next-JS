@@ -1,0 +1,43 @@
+/** Background Image **/
+
+body {background-image: url(https://i.pinimg.com/originals/f3/dd/85/f3dd85041953c17325d36c0192744ebf.jpg);
+
+height:1200px !important; width: 7000px !important;
+
+}
+
+/** Portfolio Card Profile **/
+
+.TitlePortfolio { margin-top: 10%;margin-left: 2%; text-align: center;  font-size: 30px !important;
+    font-size: 3rem; /* Adjust font size as needed */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+  font-size: 4rem; /* Adjust font size as needed */
+  opacity: 0; /* Initially hide the text */
+  animation: fadeIn 1s ease-in-out forwards;
+
+}
+
+.IMGlogo { justify-content: center; margin-left: 30%; margin-top: 3%; 
+    font-size: 4rem; /* Adjust font size as needed */
+    opacity: 0; /* Initially hide the text */
+    animation: fadeIn 1s ease-in-out forwards;}
+
+
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+
+/* BeautifulFooter.css */
+.FooterSection {
+  background-color: #f2f2f2; /* Light gray background */
+  padding: 20px;
+  text-align: center; /* Center the content horizontally */
+  opacity: 0; /* Initially hide the text */
+    animation: fadeIn 1s ease-in-out forwards;
+
+}

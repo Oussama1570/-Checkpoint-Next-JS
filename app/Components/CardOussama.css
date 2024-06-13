@@ -1,0 +1,77 @@
+/* OussamaPortfolioCard */
+
+
+.OussamaCardPortfolio { justify-content: center; margin-top: 5%; text-align: center;
+     margin-left: 35%; position: relative; margin-bottom: 5%; font-size: 4rem; /* Adjust font size as needed */
+     opacity: 0; /* Initially hide the text */
+     animation: fadeIn 1s ease-in-out forwards;
+     position: relative; /* Enable relative positioning */
+        overflow: hidden; /* Hide overflowing content initially */
+        /* Your base card styles */
+        transition: transform 0.3s ease-in-out;
+     
+     
+    }
+
+
+    
+    
+/* Hovering OussamaPortfolioCard */
+    
+      
+      .OussamaCardPortfolio:hover {
+        transform: translateY(-5px); /* Lift the card on hover */
+      }
+      
+      .OussamaCardPortfolio__hidden-content {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50%; /* Adjust height as needed */
+        background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+        color: #fff; /* Text color for hidden content */
+        padding: 1rem; /* Adjust padding as needed */
+        opacity: 0; /* Initially hide the content */
+        transition: opacity 0.3s ease-in-out;
+      }
+      
+      .OussamaCardPortfolio:hover .OussamaCardPortfolio__hidden-content {
+        opacity: 1; /* Reveal content on hover */
+      }
+
+
+      .ButtonsMe {justify-content: center;}
+
+      
+
+
+
+/* Animation Fade In */
+
+
+
+    @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
